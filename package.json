@@ -52,7 +52,7 @@
     "verify"
   ],
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Sagacify/eslint-config-sagastandard.git"
