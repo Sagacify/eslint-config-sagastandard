@@ -1,0 +1,18 @@
+machine:
+  java:
+    version: openjdk8
+  node:
+    version: v6.1.0
+
+dependencies:
+  override:
+    - npm install
+    - wget https://raw.githubusercontent.com/Sagacify/ci-tools/master/run-sonar.sh
+    - chmod +x run-sonar.sh
+    - ./run-sonar.sh check
+    - ./run-sonar.sh install
+
+test:
+  override:
+    - npm test
+    - ./run-sonar.sh run
