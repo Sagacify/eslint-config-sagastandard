@@ -1,0 +1,63 @@
+{
+  "name": "eslint-config-sagastandard",
+  "description": "eslint sharable config for sagastandard",
+  "version": "1.0.0",
+  "author": "Sagacify <dev@sagacify.com>",
+  "bugs": {
+    "url": "https://github.com/Sagacify/eslint-config-sagastandard/issues"
+  },
+  "peerDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-semistandard": "^8.0.0",
+    "eslint-config-standard": "^10.0.0",
+    "eslint-config-standard-jsx": "^3.3.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-standard": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.19.0",
+    "eslint-config-semistandard": "8.0.0",
+    "eslint-config-standard": "10.0.0",
+    "eslint-config-standard-jsx": "3.3.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-node": "4.2.2",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-react": "6.10.3",
+    "eslint-plugin-standard": "2.2.0",
+    "mocha": "3.2.0"
+  },
+  "homepage": "https://github.com/Sagacify/eslint-config-sagastandard",
+  "keywords": [
+    "check",
+    "checker",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "JavaScript sagastandard Style",
+    "lint",
+    "quality",
+    "sagastandard style",
+    "sagastandard",
+    "style checker",
+    "style linter",
+    "style",
+    "verify"
+  ],
+  "license": "ISC",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sagacify/eslint-config-sagastandard.git"
+  },
+  "scripts": {
+    "test": "LOG_LEVEL=fatal mocha"
+  }
+}
