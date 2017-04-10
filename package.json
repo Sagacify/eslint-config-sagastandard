@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-sagastandard",
   "description": "eslint sharable config for sagastandard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Sagacify <dev@sagacify.com>",
   "bugs": {
     "url": "https://github.com/Sagacify/eslint-config-sagastandard/issues"
