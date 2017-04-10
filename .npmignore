@@ -1,4 +1,7 @@
-.eslintrc.js
-test/*
+.*
+test
 circle.yml
 yarn.lock
+*.zip
+sonar-*
+run-sonar.sh
